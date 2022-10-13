@@ -33,7 +33,7 @@ const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => <li>{meal.name}</li>);
 
   return (
-    <section>
+    <section className={classes.meals}>
       <ul>{mealsList}</ul>
     </section>
   );
